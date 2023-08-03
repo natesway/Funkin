@@ -5,8 +5,11 @@ import flixel.FlxSprite;
 import flixel.graphics.frames.FlxAtlasFrames;
 import flixel.math.FlxMath;
 import flixel.util.FlxColor;
+import flixel.util.FlxTimer;
 import flash.display.BitmapData;
 import editors.ChartingState;
+import shaderslmfao.ColorSwap;
+import ui.PreferencesMenu;
 
 using StringTools;
 
