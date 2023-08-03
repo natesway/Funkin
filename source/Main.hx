@@ -1,6 +1,8 @@
 package;
 
+import flixel.FlxG;
 import flixel.FlxGame;
+import flixel.FlxState;
 import flixel.FlxState;
 import openfl.Assets;
 import openfl.Lib;
@@ -21,9 +23,9 @@ class Main extends Sprite
 	var initialState:Class<FlxState> = TitleState; // The FlxState the game starts with.
 	var zoom:Float = -1; // If -1, zoom is automatically calculated to fit the window dimensions.
 	#if web
-	var framerate:Int = 60; // How many frames per second the game should run at.
+	var framerate:Int = 450; // How many frames per second the game should run at.
 	#else
-	var framerate:Int = 144; // How many frames per second the game should run at.
+	var framerate:Int = 450; // How many frames per second the game should run at.
 
 	#end
 	var skipSplash:Bool = true; // Whether to skip the flixel splash screen that appears in release mode.
